@@ -97,7 +97,7 @@ KamiAnime/
 
 1. **Clone and Setup**
 ```bash
-git clone <repository-url>
+git clone https://github.com/piyushbalam2009/KamiAnime.git
 cd KamiAnime
 npm install
 ```
