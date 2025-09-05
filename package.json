@@ -1,0 +1,23 @@
+{
+  "name": "kamianime",
+  "version": "1.0.0",
+  "description": "A modern anime & manga streaming platform with gamification and community features",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean",
+    "dev:web": "cd apps/web && npm run dev",
+    "dev:bot": "cd apps/bot && npm run dev",
+    "dev:api": "cd apps/api && npm run dev"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.0"
+  }
+}
